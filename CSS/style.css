@@ -7121,7 +7121,12 @@ ul.children {
     text-align: center;
     margin-left: 25%;
   }
-
+@media screen  and (max-width:780) {
+  .team-member-all .team-member-all h1{
+    /* margin-left: -10%; */
+    margin-right: 200px;
+  }
+}
 
     .team-list img {
       width: 50%;
